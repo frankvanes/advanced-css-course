@@ -24,6 +24,8 @@ Dimensions (px) Medium              $breakpoint     dimensions (em)
 (1200 - 1800px) Normal style
 1800px+         Large desktop       large-desktop   112.5em+
 (1em == 16px)
+
+ORDER: Base + typography > general layout + grid > page layout > components
 */
 @mixin respond($breakpoint) {
     @if $breakpoint == phone {
